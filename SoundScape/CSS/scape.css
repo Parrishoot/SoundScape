@@ -1,0 +1,62 @@
+body {
+	margin: 0px;
+	width : 100%;
+	height : 100%;
+  animation: bg 50s infinite; 
+  -webkit-animation: bg 50s infinite; 
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+@keyframes bg
+{
+  0%   {background: #87edba;}
+  25%  {background: #e5ff87;}
+  50%  {background: #99befc;}
+  75%  {background: #ffa5a0;}
+  100% {background: #87edba;}
+}
+
+@-webkit-keyframes bg
+{
+  0%   {background: #87edba;}
+  25%  {background: #e5ff87;}
+  50%  {background: #99befc;}
+  75%  {background: #ffa5a0;}
+  100% {background: #87edba;}
+}
+
+.SoundScape {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	color: #FFF;
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.name {
+	position: absolute;
+	text-align: right;
+	bottom:0%;
+	right:1%;
+	width: 100%;
+	color: #FFF;
+	font-size: 15px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.options {
+	position: absolute;
+	left:1%;
+	bottom:1%;
+	width: 99%;
+}
