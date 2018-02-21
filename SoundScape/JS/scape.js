@@ -85,7 +85,7 @@ window.onload = function() {
   			$("#tri").attr('src', '../Assets/Images/tri_unselected.png');
   			$("#sq").attr('src', '../Assets/Images/square_unselected.png');
   			for(var i = 0; i < num_osc; i++) {
-  				oscs[i].type = 'square';
+  				oscs[i].type = 'sine';
   			}
   			wave = "sine";
 
